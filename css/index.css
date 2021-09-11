@@ -1,0 +1,21 @@
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+    font-family: 'Padauk', sans-serif;
+}
+.one{
+    background-image: url(/img/backgrounds/h_img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+.two{
+    text-align: center;
+    align-items: center;
+}
