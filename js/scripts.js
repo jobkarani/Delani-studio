@@ -31,7 +31,9 @@ $(document).ready(function(){
 })
 
 $(document).ready(function(){
-    $(".img").hover(function(){
+    $(".image-frame").hover(function(){
+        $(".image-caption",this).slideToggle("slow");
+    }, function(){
         $(".image-caption",this).slideToggle("slow");
     })
 })
