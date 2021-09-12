@@ -1,15 +1,20 @@
+$(document).ready(function(){
+    $("#one").click(function(){
+        $(".design").show();
+    })
+})
+$(document).ready(function(){
+    $(".design").click(function(){
+        $(".design").hide();
+    })
+})
 // $(document).ready(function(){
-//     $("img").click(function(){
-//         $("#design").toggle();
+//     $("#two").click(function(){
+//         $(".development").toogle();
 //     })
 // })
 // $(document).ready(function(){
-//     $("img").click(function(){
-//         $("#development").toogle();
-//     })
-// })
-// $(document).ready(function(){
-//     $("img").click(function(){
-//         $("#project").toogle();
+//     $("#three").click(function(){
+//         $(".project").toogle();
 //     })
 // })
