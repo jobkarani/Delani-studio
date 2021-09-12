@@ -18,8 +18,13 @@ $(document).ready(function(){
         $(".development").hide();
     })
 })
-// $(document).ready(function(){
-//     $("#three").click(function(){
-//         $(".project").toogle();
-//     })
-// })
+$(document).ready(function(){
+    $("#three").click(function(){
+        $(".product").show();
+    })
+})
+$(document).ready(function(){
+    $(".product").click(function(){
+        $(".product").hide();
+    })
+})
