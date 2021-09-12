@@ -20,11 +20,13 @@ html{
 .two{
     text-align: center;
     align-items: center;
+    padding: 50px 0 50px 0;
 }
 .three{
     text-align: center;
     background-image: url(/img/backgrounds/s_image.jpg);
     color: #fff;
+    padding: 50px 0 50px 0;
 }
 .services{
     align-items: center;
@@ -32,13 +34,26 @@ html{
 }
 .four{
     text-align: center;
+    padding: 50px 0 50px 0;
 }
 .four>img{
     padding: 0 200px 0 200px;
 }
 .five{
     text-align: center;
+    padding: 50px 0 50px 0;
 }
 .five>.img{
     padding: 0 50px 0 50px;
+}
+.six{
+    background-image: url(/img/backgrounds/c_image.jpg);
+    text-align: center;
+    color: white;
+}
+.contact{
+    padding: 50px 0 100px 0;
+}
+#delani{
+    opacity: 0.5;
 }
