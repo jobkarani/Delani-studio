@@ -11,9 +11,11 @@ html{
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    color: white;
-    align-items: center;
+    color: #fff;
     text-align: center;
+}
+.pad{
+    padding: 50px 0 150px 0;
 }
 .two{
     text-align: center;
@@ -21,4 +23,12 @@ html{
 }
 .three{
     text-align: center;
+    background-image: url(/img/backgrounds/s_image.jpg);
+    color: #fff;
+    /* background-position: center;
+    background-size: cover; */
+}
+.services{
+    align-items: center;
+    padding: 80px 0 80px 0;
 }
