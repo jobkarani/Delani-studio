@@ -15,13 +15,12 @@
 
 <body>
     <div class="one">
-
         <img src="img/logo/logo.png" alt="logo"> <br>
         <div class="pad">
             <h1>WELCOME <br> TO DELANI STUDIO</h1>
             <p> <strong>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</strong></p>
         </div>
-        <a href="#five"><img src="img/mouse_click.png" alt="click"></a>
+        <a href="#link"><img src="img/mouse_click.png" alt="click"></a>
     </div>
     <div class="two">
         <h2>ABOUT US</h2>
@@ -84,7 +83,7 @@
             </div>
         </div>
     </div>
-    <div class="five">
+    <div class="five" id="link">
         <h1>PORTFOLIO</h1>
         <div id="five1">
             <div class="img">
@@ -158,13 +157,16 @@
     <div class="six">
         <div class="contact">
             <h1>CONTACT US</h1>
-            <form action="">
-                <input type="text" value="Name...." id="delani">
-                <input type="text" value="Email...." id="delani"><br>
-                <textarea name="delani" id="delani" cols="60" rows="10"
+            <form action="" id="form">
+                <input type="text" placeholder="Name...." id="name">
+                <p id="enter-name"></p>
+                <input type="text" placeholder="Email...." id="email"><br>
+                <p id="enter-email"></p>
+                <textarea name="delani" id="text" cols="60" rows="10"
                     placeholder="Type your message here...."></textarea>
                 <br>
-                <input type="submit" value="Submit" id="delani">
+                <a href="#send"><input type="submit" value="Submit" id="send"></a>
+                <div id="display"></div>
             </form>
         </div>
     </div>

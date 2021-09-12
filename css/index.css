@@ -52,7 +52,7 @@ h2{
 }
 .five{
     text-align: center;
-    padding: 50px 0 50px 0;
+    padding: 50px 0 0 0;
 }
 #five1{
     display: flex;
@@ -67,6 +67,7 @@ h2{
 .image-frame{
 	position: relative;
     top: -200px;
+    bottom: 0;
 }
 .image-caption{
     display: none;
@@ -85,8 +86,8 @@ h2{
 .contact{
     padding: 50px 0 100px 0;
 }
-#delani{
-    opacity: 0.5;
+#name,#email,#text,#s{
+    opacity: 0.4;
 }
 .seven{
     padding: 50px 0 50px 0;
