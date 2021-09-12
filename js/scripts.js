@@ -1,0 +1,15 @@
+// $(document).ready(function(){
+//     $("img").click(function(){
+//         $("#design").toggle();
+//     })
+// })
+// $(document).ready(function(){
+//     $("img").click(function(){
+//         $("#development").toogle();
+//     })
+// })
+// $(document).ready(function(){
+//     $("img").click(function(){
+//         $("#project").toogle();
+//     })
+// })

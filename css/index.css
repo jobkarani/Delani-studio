@@ -33,11 +33,19 @@ html{
     padding: 80px 0 80px 0;
 }
 .four{
-    text-align: center;
     padding: 50px 0 50px 0;
 }
-.four>img{
+.four>h1{
+    text-align: center;
+}
+#four{
+    display: flex;
+}
+.four>#four>img{
     padding: 0 200px 0 200px;
+}
+.design,.development,.product{
+    display: none;
 }
 .five{
     text-align: center;
