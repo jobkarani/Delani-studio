@@ -1,30 +1,31 @@
 $(document).ready(function(){
     $("#one").click(function(){
-        $(".design").show();
+        $(".design").toggle();
     })
 })
 $(document).ready(function(){
     $(".design").click(function(){
-        $(".design").hide();
+        $("#one").toggle();
     })
 })
 $(document).ready(function(){
     $("#two").click(function(){
-        $(".development").show();
+        $(".development").toggle();
     })
 })
 $(document).ready(function(){
     $(".development").click(function(){
-        $(".development").hide();
+        $("#two").toggle();
     })
 })
 $(document).ready(function(){
     $("#three").click(function(){
-        $(".product").show();
+        $(".product").toggle();
+        // $("#three").toggle();
     })
 })
 $(document).ready(function(){
     $(".product").click(function(){
-        $(".product").hide();
+        $("#three").toggle();
     })
 })

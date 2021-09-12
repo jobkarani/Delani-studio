@@ -47,6 +47,9 @@ html{
 .design,.development,.product{
     display: none;
 }
+h2{
+    text-align: center;
+}
 .five{
     text-align: center;
     padding: 50px 0 50px 0;
