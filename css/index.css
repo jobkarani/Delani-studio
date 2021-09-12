@@ -57,6 +57,19 @@ h2{
 .five>.img{
     padding: 0 50px 0 50px;
 }
+.image-caption{
+    display: none;
+    opacity: 0.8;
+    margin: 5px;
+    padding: 0 50px 0 50px;
+    position: relative;
+    top: -150px;
+}
+.image-caption>p{
+    color: yellow;
+    font-weight: 900;
+    font-size: larger;
+}
 .six{
     background-image: url(/img/backgrounds/c_image.jpg);
     text-align: center;
