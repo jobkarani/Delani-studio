@@ -25,10 +25,14 @@ html{
     text-align: center;
     background-image: url(/img/backgrounds/s_image.jpg);
     color: #fff;
-    /* background-position: center;
-    background-size: cover; */
 }
 .services{
     align-items: center;
     padding: 80px 0 80px 0;
+}
+.four{
+    text-align: center;
+}
+.four>img{
+    padding: 0 200px 0 200px;
 }
