@@ -67,18 +67,20 @@ h2{
 .image-frame{
 	position: relative;
     top: -200px;
-	margin: 5px;
-	color: #333; 
+}
+.image-caption{
+    display: none;
+    border: 5px solid #fff;
 }
 .image-caption>p{
-    color: white;
+    color: #fff;
     font-weight: 900;
     font-size: larger;
 }
 .six{
     background-image: url(/img/backgrounds/c_image.jpg);
     text-align: center;
-    color: white;
+    color: #fff;
 }
 .contact{
     padding: 50px 0 100px 0;
