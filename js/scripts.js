@@ -8,11 +8,16 @@ $(document).ready(function(){
         $(".design").hide();
     })
 })
-// $(document).ready(function(){
-//     $("#two").click(function(){
-//         $(".development").toogle();
-//     })
-// })
+$(document).ready(function(){
+    $("#two").click(function(){
+        $(".development").show();
+    })
+})
+$(document).ready(function(){
+    $(".development").click(function(){
+        $(".development").hide();
+    })
+})
 // $(document).ready(function(){
 //     $("#three").click(function(){
 //         $(".project").toogle();
