@@ -6,7 +6,7 @@ html{
     font-family: 'Padauk', sans-serif;
 }
 .one{
-    background-image: url(/img/backgrounds/h_img.jpg);
+    background-image: url(../img/backgrounds/h_img.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@ html{
 }
 .three{
     text-align: center;
-    background-image: url(/img/backgrounds/s_image.jpg);
+    background-image: url(../img/backgrounds/s_image.jpg);
     color: #fff;
     padding: 50px 0 50px 0;
 }
@@ -79,7 +79,7 @@ h2{
     font-size: larger;
 }
 .six{
-    background-image: url(/img/backgrounds/c_image.jpg);
+    background-image: url(../img/backgrounds/c_image.jpg);
     text-align: center;
     color: #fff;
 }
