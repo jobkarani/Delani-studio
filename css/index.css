@@ -41,7 +41,7 @@ html{
 #four{
     display: flex;
 }
-.four>#four>img{
+.uno,.dos,.tres{
     padding: 0 200px 0 200px;
 }
 .design,.development,.product{

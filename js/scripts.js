@@ -46,4 +46,15 @@ $(document).ready(function(){
 
 
 //User-interface Logic
-  
+    function form(){
+
+        let name=("#name").val();
+        let email=("#email").val();
+        
+        if(name!='' || email!=''){
+            document.getElementById("demo").innerHTML = name;
+            document.getElementById("demo").innerHTML = email;
+        }else {
+            alert("Hi" + " " + name + "." + "Thank you for your feedback.We'll get back at you as soon as possible:)");
+        }
+    }
