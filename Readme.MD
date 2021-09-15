@@ -25,7 +25,7 @@ This is Prep's week3 Independent project.It entails a landing page for Delani St
 * Javascript
 
 ## Setup/Installation Requirements
-* This is the live link to view my project <a href="https://jobkarani.github.io/Delani-studio/">View Akan-Project.</a>
+* This is the live link to view my project <a href="https://jobkarani.github.io/Delani-studio/">View Delani-Studio</a>
 
 
 ## Known Bugs
@@ -37,7 +37,7 @@ If you have any suggestion or contributions about this project, you can reach ou
 * Phone: +254707367650
 
 ## License
-Copyright <2021> <MoringaSchool>
+Copyright <2021> <Moringa School>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
