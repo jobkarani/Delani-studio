@@ -9,7 +9,6 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/index.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/scripts.js"></script>
     <title>Delani Studio</title>
 </head>
 
@@ -165,13 +164,13 @@
     <div class="six">
         <div class="contact">
             <h1>CONTACT US</h1>
-            <form action="https://us5.list-manage.com/contact-form?u=566cedee26df03d9894230b71&form_id=d1012b912719fe07969104e4ff6f268e" id="form" form()>
-                <input type="text" placeholder="Name...." id="name">
-                <input type="text" placeholder="Email...." id="email"><br>
+            <form action="" class="form">
+                <input type="text" placeholder="Name...." id="name" required>
+                <input type="text" placeholder="Email...." id="email" required><br>
                 <textarea name="delani" id="text" cols="60" rows="10"
                     placeholder="Type your message here...."></textarea>
                 <br>
-                <a href="#send"><input type="submit" value="Submit" id="send"></a>
+                <button value="submit" class onclick="submit()" type="submit">Submit</button>
             </form>
         </div>
     </div>
@@ -193,5 +192,5 @@
         <strong>DELANI STUDIO <br> 2019</strong>
     </div>
 </body>
-
+<script src="js/scripts.js"></script>
 </html>
